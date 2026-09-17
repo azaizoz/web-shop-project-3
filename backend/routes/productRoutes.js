@@ -4,9 +4,9 @@ import { createProduct , getProducts ,getProduct, updateProduct, deleteProduct }
 const router = expres.Router();
 
 router.get("/" , getProducts);
-router.get("/" , getProduct);
+router.get("/:id" , getProduct);
 router.post("/" , createProduct);
-router.put("/" , updateProduct);
-router.delete("/" , deleteProduct);
+router.put("/:id" , updateProduct);
+router.delete("/:id" , deleteProduct);
 
 export default router;
