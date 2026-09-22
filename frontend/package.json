@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.6.1",
+    "daisyui": "^4.12.24",
+    "lucide-react": "^1.47.0",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4"
   },
   "devDependencies": {
     "@types/react": "^19.2.18",
